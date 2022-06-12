@@ -50,18 +50,14 @@ export default function Nav() {
         )}
         {active === "#portfolio" ? (
           <Active_A>
-            <MdOutlineWorkOutline
-              style={{ width: 20, height: 20, marginRight: "3vw" }}
-            />
+            <MdOutlineWorkOutline style={{ width: 20, height: 20 }} />
           </Active_A>
         ) : (
           <A href="#portfolio" onClick={() => set_active("#portfolio")}>
-            <MdOutlineWorkOutline
-              style={{ width: 20, height: 20, marginRight: "3vw" }}
-            />
+            <MdOutlineWorkOutline style={{ width: 20, height: 20 }} />
           </A>
         )}
-        {active === "#contact" ? (
+        {/* {active === "#contact" ? (
           <Active_A>
             <BiMessageSquareDetail style={{ width: 20, height: 20 }} />
           </Active_A>
@@ -69,7 +65,7 @@ export default function Nav() {
           <A href="#contact" onClick={() => set_active("#contact")}>
             <BiMessageSquareDetail style={{ width: 20, height: 20 }} />
           </A>
-        )}
+        )} */}
       </nav>
     </Nav_Container>
   );
