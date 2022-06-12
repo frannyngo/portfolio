@@ -3,7 +3,7 @@ import { Nav_Container } from "./nav_styles";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
+import { MdOutlineWorkOutline } from "react-icons/md";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { A, Active_A } from "./nav_styles";
 
@@ -48,15 +48,15 @@ export default function Nav() {
             <BiBook style={{ width: 20, height: 20, marginRight: "3vw" }} />
           </A>
         )}
-        {active === "#services" ? (
+        {active === "#portfolio" ? (
           <Active_A>
-            <RiServiceLine
+            <MdOutlineWorkOutline
               style={{ width: 20, height: 20, marginRight: "3vw" }}
             />
           </Active_A>
         ) : (
-          <A href="#services" onClick={() => set_active("#services")}>
-            <RiServiceLine
+          <A href="#portfolio" onClick={() => set_active("#portfolio")}>
+            <MdOutlineWorkOutline
               style={{ width: 20, height: 20, marginRight: "3vw" }}
             />
           </A>

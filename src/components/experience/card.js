@@ -9,14 +9,12 @@ import {
 import { BsPatchCheckFill } from "react-icons/bs";
 
 export default function Card(data) {
-  console.log(data.skills);
   return (
     <Card_Shell>
       <Header>{data.header}</Header>
       {data.skills && (
         <Skills_Container>
           {data.skills.map((element, index) => {
-            console.log(element, index);
             return (
               <Skill key={index}>
                 <BsPatchCheckFill

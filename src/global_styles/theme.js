@@ -15,11 +15,11 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100vw;
   position: relative;
   flex-direction: column;
   padding-top: 100px;
   padding-bottom: 100px;
+  max-width: 2000px;
 
   @media (max-width: 768px) {
     padding: 0px;
@@ -75,7 +75,7 @@ export const P = styled.p`
 export const Primary_Button = styled.div`
   color: #2c2c6c;
   background: #4db5ff;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 20px;
   cursor: pointer;
   text-decoration: none;
@@ -97,7 +97,7 @@ export const Primary_Button = styled.div`
 export const Not_Primary_Button = styled.div`
   color: #4db5ff;
   border: 1px solid #4db5ff;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 20px;
   cursor: pointer;
   text-decoration: none;

@@ -21,7 +21,7 @@ export const Card_Shell = styled.div`
   flex-direction: column;
   width: 45%;
   background: #4645ab;
-  border-radius: 20px;
+  dius: 20px;
   height: 350px;
   margin: 20px;
   border: 1px solid #4645ab;
