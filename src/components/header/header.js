@@ -3,6 +3,7 @@ import { Container, H5, P, H1 } from "../../global_styles/theme";
 import CTA from "../cta/cta";
 import ME from "../../assets/me.JPG";
 import Social_Media from "../social_media/social_media";
+import { Image_Container, Image } from "./header_styles";
 
 export default function Header() {
   return (
@@ -14,6 +15,9 @@ export default function Header() {
       </H5>
       <Social_Media />
       <CTA />
+      <Image_Container>
+        <Image src={ME} alt="Me" />
+      </Image_Container>
     </Container>
   );
 }
