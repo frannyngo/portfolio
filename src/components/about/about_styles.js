@@ -18,10 +18,20 @@ export const About_Container = styled.div`
   justify-content: left;
   width: 50%;
   flex-direction: column;
+  padding-right: 100px;
 
-  @media (max-width: 868px) {
+  @media (max-width: 1258px) {
+    padding-right: 20px;
+  }
+
+  @media (max-width: 1100px) {
+    padding-right: 0px;
+  }
+
+  @media (max-width: 1070px) {
     margin-top: 50px;
     width: 90%;
+    align-items: center;
   }
 `;
 
@@ -38,6 +48,10 @@ export const Cube_Container = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
+
+  @media (max-width: 1070px) {
+    width: 90%;
+  }
 
   @media (max-width: 568px) {
     flex-direction: column;
@@ -80,7 +94,7 @@ export const Header = styled.h2`
   margin-top: 15px;
   padding: 0px;
 
-  @media (max-width: 1050px) {
+  @media (max-width: 1070px) {
     font-size: 17px;
   }
 `;
@@ -92,7 +106,7 @@ export const Sub_Header = styled.p`
   padding: 0px;
   margin-top: -10px;
 
-  @media (max-width: 1050px) {
+  @media (max-width: 1070px) {
     font-size: 12px;
   }
 `;
@@ -102,8 +116,9 @@ export const Description = styled.p`
   font-size: 20px;
   margin-top: 20px;
 
-  @media (max-width: 1050px) {
+  @media (max-width: 1070px) {
     font-size: 17px;
+    width: 90%;
   }
 
   @media (max-width: 868px) {
@@ -119,7 +134,7 @@ export const Image_Background = styled.div`
   border-radius: 25px;
   z-index: 0;
 
-  @media (max-width: 1050px) {
+  @media (max-width: 1070px) {
     width: 320px;
     height: 300px;
   }
@@ -134,7 +149,7 @@ export const Image = styled.img`
   border-radius: 25px;
   transform: rotate(8deg);
 
-  @media (max-width: 1050px) {
+  @media (max-width: 1070px) {
     width: 320px;
     height: 310px;
   }
