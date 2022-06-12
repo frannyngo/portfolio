@@ -1,0 +1,14 @@
+import React from "react";
+import CV from "../../assets/resume.pdf";
+import Button from "../../global_styles/button";
+import { CTA_Container } from "./cta_styles";
+
+export default function CTA() {
+  return (
+    <CTA_Container>
+      <Button title={`Download CV`} download={CV} />
+      &ensp;
+      <Button title={`Let's Talk`} primary />
+    </CTA_Container>
+  );
+}
