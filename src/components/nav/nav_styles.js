@@ -14,14 +14,6 @@ export const Nav_Container = styled.div`
   width: 250px;
 `;
 
-export const A = styled.a`
-  color: rgb(255, 255, 255, 0.6);
-
-  &:hover {
-    color: #4db5ff;
-  }
-`;
-
 export const Active_A = styled.a`
   color: #4db5ff;
 `;

@@ -33,12 +33,12 @@ export default function About() {
             <About_Cubes
               image="code"
               header="Languages"
-              sub_header="8+ Fluent"
+              sub_header="5+ Fluent"
             />
             <About_Cubes
               image="book"
               header="Libraries"
-              sub_header="4+ Libraries"
+              sub_header="10+ Used"
             />
           </Cube_Container>
           <Description>
