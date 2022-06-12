@@ -149,6 +149,10 @@ export const Image = styled.img`
   border-radius: 25px;
   transform: rotate(8deg);
 
+  &:hover {
+    transform: rotate(0);
+  }
+
   @media (max-width: 1070px) {
     width: 320px;
     height: 310px;
