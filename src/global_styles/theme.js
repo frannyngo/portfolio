@@ -32,11 +32,11 @@ export const H5 = styled.h5`
     padding 0px;
     color: white;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 20px;
 
     @media (max-width: 450px) {
-        font-size: 20px;
-  }
+        font-size: 18px;
+    }
 `;
 
 export const H2 = styled.h1`

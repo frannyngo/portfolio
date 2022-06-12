@@ -5,7 +5,6 @@ import { BiCodeAlt } from "react-icons/bi";
 import { About_Cube, Header, Sub_Header } from "./about_styles";
 
 export default function About_Cubes(data) {
-  console.log(data.header);
   return (
     <About_Cube>
       {data.image === "ribbon" && (
