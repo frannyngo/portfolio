@@ -9,7 +9,6 @@ export const Background = styled.div`
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100%;
 `;
 
 export const Container = styled.section`
@@ -40,6 +39,20 @@ export const H5 = styled.h5`
   }
 `;
 
+export const H2 = styled.h1`
+    margin: 0px;
+    padding 0px;
+    color: #4db5ff;
+    margin-bottom: 5px;
+    font-size: 40px;
+    
+
+    @media (max-width: 450px) {
+        font-size: 30px;
+        color: #4db5ff;;
+    }
+`;
+
 export const H1 = styled.h1`
     margin: 0px;
     padding 0px;
@@ -49,7 +62,7 @@ export const H1 = styled.h1`
 
     @media (max-width: 450px) {
         font-size: 50px;
-  }
+    }
 `;
 
 export const P = styled.p`
