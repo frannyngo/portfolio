@@ -41,6 +41,14 @@ export const Image_Container = styled.div`
   justify-content: center;
   width: 50%;
   position: relative;
+
+  @media (max-width: 868px) {
+    width: 70%;
+  }
+
+  @media (max-width: 600px) {
+    width: 90%;
+  }
 `;
 
 export const Cube_Container = styled.div`
@@ -117,7 +125,6 @@ export const Description = styled.p`
   margin-top: 20px;
 
   @media (max-width: 1070px) {
-    font-size: 17px;
     width: 90%;
   }
 
@@ -138,6 +145,16 @@ export const Image_Background = styled.div`
     width: 320px;
     height: 300px;
   }
+
+  @media (max-width: 868px) {
+    width: 390px;
+    height: 380px;
+  }
+
+  @media (max-width: 600px) {
+    width: 330px;
+    height: 310px;
+  }
 `;
 
 export const Image = styled.img`
@@ -154,7 +171,17 @@ export const Image = styled.img`
   }
 
   @media (max-width: 1070px) {
-    width: 320px;
+    width: 330px;
+    height: 310px;
+  }
+
+  @media (max-width: 868px) {
+    width: 390px;
+    height: 380px;
+  }
+
+  @media (max-width: 600px) {
+    width: 330px;
     height: 310px;
   }
 `;
