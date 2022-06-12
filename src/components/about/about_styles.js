@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const About_Content_Container = styled.div`
   display: flex;
@@ -157,6 +157,24 @@ export const Image_Background = styled.div`
   }
 `;
 
+const rotate = keyframes`
+  from {
+    transform: rotate(8deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+`;
+
+const rotate_restart = keyframes`
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(8deg);
+  }
+`;
+
 export const Image = styled.img`
   display: flex;
   width: 450px;
@@ -164,10 +182,12 @@ export const Image = styled.img`
   z-index: 1;
   position: absolute;
   border-radius: 25px;
-  transform: rotate(8deg);
+  animation: ${rotate_restart} 0.2s linear;
+  animation-fill-mode: forwards;
 
   &:hover {
-    transform: rotate(0);
+    animation: ${rotate} 0.2s linear;
+    animation-fill-mode: forwards;
   }
 
   @media (max-width: 1070px) {
