@@ -42,15 +42,11 @@ export default function About() {
             />
           </Cube_Container>
           <Description>
-            is simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry's standard dummy text ever since the
-            1500s, when an unknown printer took a galley of type and scrambled
-            it to make a type specimen book. It has survived not only five
-            centuries, but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s with the
-            release of Letraset sheets containing Lorem Ipsum passages, and more
-            recently with desktop publishing software like Aldus PageMaker
-            including versions of Lorem Ipsum.
+            Great to meet you. In the last year, I have been expanding my
+            knowledge within my field to write better and more efficient code
+            with a diverse set of languages, frameworks, databases and libraries
+            within my arsenal. Today I am currently working on Crypto-related
+            projects while taking a Machine Learning course from MITx!
           </Description>
           <Button primary title={`Let's Talk`} />
         </About_Container>

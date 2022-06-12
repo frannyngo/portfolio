@@ -15,37 +15,29 @@ export default function Nav() {
       <nav>
         {active === "#" ? (
           <Active_A>
-            <AiOutlineHome
-              style={{ width: 20, height: 20, marginRight: "3vw" }}
-            />
+            <AiOutlineHome style={{ width: 20, height: 20, marginRight: 40 }} />
           </Active_A>
         ) : (
           <A href="#" onClick={() => set_active("#")}>
-            <AiOutlineHome
-              style={{ width: 20, height: 20, marginRight: "3vw" }}
-            />
+            <AiOutlineHome style={{ width: 20, height: 20, marginRight: 40 }} />
           </A>
         )}
         {active === "#about" ? (
           <Active_A>
-            <AiOutlineUser
-              style={{ width: 20, height: 20, marginRight: "3vw" }}
-            />
+            <AiOutlineUser style={{ width: 20, height: 20, marginRight: 40 }} />
           </Active_A>
         ) : (
           <A href="#about" onClick={() => set_active("#about")}>
-            <AiOutlineUser
-              style={{ width: 20, height: 20, marginRight: "3vw" }}
-            />
+            <AiOutlineUser style={{ width: 20, height: 20, marginRight: 40 }} />
           </A>
         )}
         {active === "#experience" ? (
           <Active_A>
-            <BiBook style={{ width: 20, height: 20, marginRight: "3vw" }} />
+            <BiBook style={{ width: 20, height: 20, marginRight: 40 }} />
           </Active_A>
         ) : (
           <A href="#experience" onClick={() => set_active("#experience")}>
-            <BiBook style={{ width: 20, height: 20, marginRight: "3vw" }} />
+            <BiBook style={{ width: 20, height: 20, marginRight: 40 }} />
           </A>
         )}
         {active === "#portfolio" ? (

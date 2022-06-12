@@ -7,9 +7,6 @@ export const Footer_Container = styled.div`
   width: 95%;
   padding-top: 40px;
   padding-bottom: 0px;
-  @media (max-width: 868px) {
-    flex-direction: column;
-  }
 `;
 
 export const Link = styled.a`
