@@ -153,7 +153,7 @@ export const Image_Background = styled.div`
 
   @media (max-width: 600px) {
     width: 330px;
-    height: 310px;
+    height: 320px;
   }
 `;
 
@@ -197,11 +197,11 @@ export const Image = styled.img`
 
   @media (max-width: 868px) {
     width: 390px;
-    height: 380px;
+    height: 390px;
   }
 
   @media (max-width: 600px) {
     width: 330px;
-    height: 310px;
+    height: 320px;
   }
 `;

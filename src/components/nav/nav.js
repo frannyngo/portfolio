@@ -5,7 +5,6 @@ import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { MdOutlineWorkOutline } from "react-icons/md";
-import { BiMessageSquareDetail } from "react-icons/bi";
 import { Active_A } from "./nav_styles";
 
 const styles = {
