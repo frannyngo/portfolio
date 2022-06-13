@@ -15,7 +15,11 @@ export default function Button(title) {
         <Primary_Button>
           {title.download ? (
             <a
-              href={title.download}
+              href={
+                title.title === "Let's Talk"
+                  ? `mailto:frannytaan@gmail.com`
+                  : title.download
+              }
               style={{ textDecoration: "none", color: "#2c2c6c" }}
               download
             >
@@ -23,7 +27,11 @@ export default function Button(title) {
             </a>
           ) : (
             <a
-              href={title.download}
+              href={
+                title.title === "Let's Talk"
+                  ? `mailto:frannytaan@gmail.com`
+                  : title.download
+              }
               style={{ textDecoration: "none", color: "#2c2c6c" }}
             >
               {title.title}
@@ -34,7 +42,11 @@ export default function Button(title) {
         <Not_Primary_Button>
           {title.download ? (
             <a
-              href={title.download}
+              href={
+                title.title === "Let's Talk"
+                  ? `mailto:frannytaan@gmail.com`
+                  : title.download
+              }
               style={{ textDecoration: "none", color: "#4db5ff" }}
               download
             >
@@ -42,7 +54,11 @@ export default function Button(title) {
             </a>
           ) : (
             <a
-              href={title.download}
+              href={
+                title.title === "Let's Talk"
+                  ? `mailto:frannytaan@gmail.com`
+                  : title.download
+              }
               style={{ textDecoration: "none", color: "#4db5ff" }}
             >
               {title.title}
