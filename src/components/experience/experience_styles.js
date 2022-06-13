@@ -4,7 +4,7 @@ export const Card_Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90%;
+  width: 95%;
   padding-top: 40px;
   padding-bottom: 40px;
   flex-wrap: wrap;
@@ -42,7 +42,9 @@ export const Card_Shell = styled.div`
   @media (max-width: 700px) {
     width: 90%;
   }
-
+  @media (max-width: 600px) {
+    width: 95%;
+  }
   &:hover {
     background: transparent;
   }
