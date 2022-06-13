@@ -43,7 +43,11 @@ export const Card_Shell = styled.div`
     width: 90%;
   }
   @media (max-width: 600px) {
-    width: 95%;
+    width: 90%;
+  }
+
+  @media (max-width: 400px) {
+    height: 400px;
   }
   &:hover {
     background: transparent;
@@ -68,6 +72,13 @@ export const Skills_Container = styled.div`
 
   @media (max-width: 700px) {
     width: 95%;
+  }
+
+  @media (max-width: 400px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: none;
   }
 `;
 

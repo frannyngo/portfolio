@@ -44,6 +44,18 @@ export const Project_Container = styled.div`
     padding-top: 30px;
     padding-bottom: 0px;
   }
+
+  @media (max-width: 400px) {
+    width: 355px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+
+  @media (max-width: 400px) {
+    width: 320px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
 `;
 
 export const Info = styled.div`
@@ -81,6 +93,10 @@ export const Info = styled.div`
 
   @media (max-width: 600px) {
     width: 325px;
+  }
+
+  @media (max-width: 400px) {
+    width: 270px;
   }
 `;
 
@@ -131,6 +147,9 @@ export const Image = styled.img`
 
   @media (max-width: 600px) {
     width: 325px;
+  }
+  @media (max-width: 400px) {
+    width: 270px;
   }
 `;
 
