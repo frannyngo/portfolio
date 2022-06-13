@@ -11,7 +11,7 @@ import {
 } from "./about_styles";
 import About_Cubes from "./about_cube";
 import Button from "../../global_styles/button";
-import Me from "../../assets/about_me.JPG";
+import Me from "../../assets/about_me.HEIC.jpg";
 
 export default function About() {
   return (

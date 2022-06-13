@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, H5, P, H1 } from "../../global_styles/theme";
 import CTA from "../cta/cta";
-import ME from "../../assets/me.JPG";
+import ME from "../../assets/me.HEIC.jpg";
 import Social_Media from "../social_media/social_media";
 import { Image_Container, Image } from "./header_styles";
 

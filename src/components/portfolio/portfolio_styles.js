@@ -125,12 +125,11 @@ export const Image = styled.img`
   }
 
   @media (max-width: 768px) {
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 380px;
   }
 
   @media (max-width: 600px) {
-    height: 400px;
     width: 325px;
   }
 `;
