@@ -28,7 +28,7 @@ const styles = {
 };
 
 export default function Nav() {
-  const [active, set_active] = useState("/");
+  const [active, set_active] = useState("#");
 
   return (
     <Nav_Container>
