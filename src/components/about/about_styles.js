@@ -200,24 +200,24 @@ export const Description = styled.p`
 export const Image_Background = styled.div`
   background: #fffdfa;
   width: 450px;
-  height: 440px;
+  height: 480px;
   border-radius: 25px;
   z-index: 0;
   border: 3px solid #d3ae36;
 
   @media (max-width: 1070px) {
     width: 310px;
-    height: 300px;
+    height: 340px;
   }
 
   @media (max-width: 868px) {
     width: 390px;
-    height: 380px;
+    height: 420px;
   }
 
   @media (max-width: 600px) {
     width: 330px;
-    height: 320px;
+    height: 360px;
   }
 `;
 
@@ -242,7 +242,7 @@ const rotate_restart = keyframes`
 export const Image = styled.img`
   display: flex;
   width: 450px;
-  height: 440px;
+  height: 480px;
   z-index: 1;
   position: absolute;
   border-radius: 22px;
@@ -256,16 +256,16 @@ export const Image = styled.img`
 
   @media (max-width: 1070px) {
     width: 310px;
-    height: 300px;
+    height: 340px;
   }
 
   @media (max-width: 868px) {
     width: 390px;
-    height: 380px;
+    height: 420px;
   }
 
   @media (max-width: 600px) {
     width: 330px;
-    height: 320px;
+    height: 360px;
   }
 `;
