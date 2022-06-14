@@ -103,14 +103,14 @@ export const Header = styled.h2`
 `;
 
 export const Sub_Header = styled.p`
-  color: #c1c1c1;
+  color: #a6a6a6;
   font-size: 17px;
   margin: 0px;
   padding: 0px;
   margin-top: -10px;
 
   @media (max-width: 1070px) {
-    font-size: 12px;
+    font-size: 13px;
   }
 `;
 
