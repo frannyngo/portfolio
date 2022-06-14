@@ -21,7 +21,8 @@ export const Project_Container = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 30%;
-  background: #4645ab;
+  background: #fffdfa;
+  border: 2px solid #d3ae36;
   margin: 10px;
   border-radius: 10px;
   padding-top: 30px;
@@ -155,7 +156,7 @@ export const Image = styled.img`
 
 export const Header = styled.h2`
   font-size: 20px;
-  color: white;
+  color: #d3ae36;
   padding: 0px;
   margin: 0px;
   margin-top: 15px;
@@ -171,8 +172,9 @@ export const Project_Button = styled.a`
   align-items: center;
   justify-content: center;
   margin-top: 5px;
-  color: #2c2c6c;
-  background: #4db5ff;
+  color: #d3ae36;
+  border: 1px solid #d3ae36;
+  background: #fffdfa;
   border-radius: 10px;
   padding: 15px;
   cursor: pointer;
@@ -181,8 +183,7 @@ export const Project_Button = styled.a`
   font-size: 20px;
 
   &:hover {
-    background: white;
-    color: black;
+    background: #faf6f0;
   }
 
   @media (max-width: 1000px) {

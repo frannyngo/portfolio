@@ -7,7 +7,6 @@ export default function CTA() {
   return (
     <CTA_Container>
       <Button title={`Download CV`} download={CV} />
-      &ensp;
       <Button title={`Let's Talk`} primary />
     </CTA_Container>
   );

@@ -10,7 +10,7 @@ export default function Header() {
     <Container id="#">
       <H5>Hello,&ensp;I'm</H5>
       <H1>Francis Tan</H1>
-      <H5 style={{ color: "rgb(255, 255, 255, 0.6", paddingBottom: 20 }}>
+      <H5 style={{ color: "#c1c1c1", paddingBottom: 20 }}>
         Software Developer
       </H5>
       <Social_Media />

@@ -1,6 +1,6 @@
 import React from "react";
 import { Portfolio_Container } from "./portfolio_styles";
-import { Container, H5, H2 } from "../../global_styles/theme";
+import { Container_Color, H5, H2 } from "../../global_styles/theme";
 import Project from "./project";
 import CycurID from "../../assets/cycurID.png";
 import Imme from "../../assets/imme.png";
@@ -8,8 +8,8 @@ import Imme_App from "../../assets/mobile_app.jpg";
 
 export default function Portfolio() {
   return (
-    <Container id="portfolio">
-      <H5 style={{ color: "rgb(255, 255, 255, 0.6" }}>My Recent Work</H5>
+    <Container_Color id="portfolio">
+      <H5 style={{ color: "#c1c1c1" }}>My Recent Work</H5>
       <H2>Portfolio</H2>
       <Portfolio_Container>
         <Project
@@ -26,6 +26,6 @@ export default function Portfolio() {
           alt="imme_app"
         />
       </Portfolio_Container>
-    </Container>
+    </Container_Color>
   );
 }

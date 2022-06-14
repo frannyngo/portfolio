@@ -43,7 +43,7 @@ export default function Experience() {
   const database = ["PostgreSQL", "SQLite", "GraphQL", "RxDB"];
   return (
     <Container id="experience">
-      <H5 style={{ color: "rgb(255, 255, 255, 0.6" }}>What Skills I Have</H5>
+      <H5 style={{ color: "#c1c1c1" }}>What Skills I Have</H5>
       <H2>My Experience</H2>
       <Card_Container>
         <Card header={`Programming Languages`} skills={languages} />

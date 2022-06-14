@@ -8,13 +8,13 @@ export default function About_Cubes(data) {
   return (
     <About_Cube>
       {data.image === "ribbon" && (
-        <IoIosRibbon style={{ color: "#4db5ff", height: 40, width: 40 }} />
+        <IoIosRibbon style={{ color: "#d3ae36", height: 40, width: 40 }} />
       )}
       {data.image === "code" && (
-        <BiCodeAlt style={{ color: "#4db5ff", height: 40, width: 40 }} />
+        <BiCodeAlt style={{ color: "#d3ae36", height: 40, width: 40 }} />
       )}
       {data.image === "book" && (
-        <BsBook style={{ color: "#4db5ff", height: 40, width: 40 }} />
+        <BsBook style={{ color: "#d3ae36", height: 40, width: 40 }} />
       )}
       <Header>{data.header ? data.header : "Header"}</Header>
       <Sub_Header>

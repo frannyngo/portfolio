@@ -1,5 +1,5 @@
 import React from "react";
-import { Primary_Button, Not_Primary_Button } from "./theme";
+import { Not_Primary_Button } from "./theme";
 
 export default function Button(title) {
   return (
@@ -12,7 +12,7 @@ export default function Button(title) {
       }}
     >
       {title.primary ? (
-        <Primary_Button>
+        <Not_Primary_Button>
           {title.download ? (
             <a
               href={
@@ -20,7 +20,7 @@ export default function Button(title) {
                   ? `mailto:frannytaan@gmail.com`
                   : title.download
               }
-              style={{ textDecoration: "none", color: "#2c2c6c" }}
+              style={{ textDecoration: "none", color: "#d3ae36" }}
               download
             >
               {title.title}
@@ -32,12 +32,12 @@ export default function Button(title) {
                   ? `mailto:frannytaan@gmail.com`
                   : title.download
               }
-              style={{ textDecoration: "none", color: "#2c2c6c" }}
+              style={{ textDecoration: "none", color: "#d3ae36" }}
             >
               {title.title}
             </a>
           )}
-        </Primary_Button>
+        </Not_Primary_Button>
       ) : (
         <Not_Primary_Button>
           {title.download ? (
@@ -47,7 +47,7 @@ export default function Button(title) {
                   ? `mailto:frannytaan@gmail.com`
                   : title.download
               }
-              style={{ textDecoration: "none", color: "#4db5ff" }}
+              style={{ textDecoration: "none", color: "#d3ae36" }}
               download
             >
               {title.title}
@@ -59,7 +59,7 @@ export default function Button(title) {
                   ? `mailto:frannytaan@gmail.com`
                   : title.download
               }
-              style={{ textDecoration: "none", color: "#4db5ff" }}
+              style={{ textDecoration: "none", color: "#d3ae36" }}
             >
               {title.title}
             </a>

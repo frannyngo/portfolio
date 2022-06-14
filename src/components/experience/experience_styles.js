@@ -20,11 +20,11 @@ export const Card_Shell = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 45%;
-  background: #4645ab;
+  background: #fffdfa;
   dius: 20px;
   height: 350px;
   margin: 20px;
-  border: 2px solid #4645ab;
+  border: 2px solid #d3ae36;
   border-radius: 10px;
 
   @media (max-width: 1400px) {
@@ -50,12 +50,12 @@ export const Card_Shell = styled.div`
     height: 400px;
   }
   &:hover {
-    background: transparent;
+    background: #faf6f0;
   }
 `;
 
 export const Header = styled.h4`
-  color: #4db5ff;
+  color: #d3ae36;
   font-size: 25px;
 `;
 
@@ -93,7 +93,7 @@ export const Skill = styled.div`
 
 export const Skill_Title = styled.p`
   font-size: 19px;
-  color: rgb(255, 255, 255, 0.6);
+  color: #a6a6a6;
   margin-left: 10px;
 
   @media (max-width: 1500px) {
@@ -109,6 +109,6 @@ export const Skill_Title = styled.p`
   }
 
   @media (max-width: 550px) {
-    font-size: 11px;
+    font-size: 12px;
   }
 `;

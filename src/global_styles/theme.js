@@ -4,7 +4,7 @@ export const Background = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  background: #2c2c6c;
+  background: #fffdfa;
   position: absolute;
   top: 0;
   left: 0;
@@ -20,7 +20,22 @@ export const Container = styled.section`
   padding-top: 100px;
   padding-bottom: 100px;
   max-width: 2000px;
+  @media (max-width: 768px) {
+    padding: 0px;
+    padding-top: 100px;
+  }
+`;
 
+export const Container_Color = styled.section`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 2000px;
+  background: #faf6f0;
   @media (max-width: 768px) {
     padding: 0px;
     padding-top: 100px;
@@ -30,7 +45,7 @@ export const Container = styled.section`
 export const H5 = styled.h5`
     margin: 0px;
     padding 0px;
-    color: white;
+    color: #a6a6a6;
     margin-bottom: 5px;
     font-size: 20px;
 
@@ -42,21 +57,20 @@ export const H5 = styled.h5`
 export const H2 = styled.h1`
     margin: 0px;
     padding 0px;
-    color: #4db5ff;
+    color: #d3ae36;
     margin-bottom: 5px;
     font-size: 40px;
     
 
     @media (max-width: 450px) {
         font-size: 30px;
-        color: #4db5ff;;
     }
 `;
 
 export const H1 = styled.h1`
     margin: 0px;
     padding 0px;
-    color: white;
+    color: #d3ae36;
     margin-bottom: 5px;
     font-size: 70px;
 
@@ -73,16 +87,18 @@ export const P = styled.p`
 `;
 
 export const Primary_Button = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #2c2c6c;
-  background: #4db5ff;
+  background: #fffdfa;
   border-radius: 10px;
   padding: 20px;
   cursor: pointer;
   text-decoration: none;
 
   &:hover {
-    background: white;
-    color: black;
+    background: #fffdfa;
   }
 
   @media (max-width: 450px) {
@@ -95,16 +111,20 @@ export const Primary_Button = styled.div`
 `;
 
 export const Not_Primary_Button = styled.div`
-  color: #4db5ff;
-  border: 1px solid #4db5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d3ae36;
+  border: 1px solid #d3ae36;
+  background: #fffdfa;
   border-radius: 10px;
   padding: 20px;
   cursor: pointer;
   text-decoration: none;
+  width: 95px;
 
   &:hover {
-    background: white;
-    color: black;
+    background: #faf6f0;
   }
 
   @media (max-width: 450px) {
@@ -113,5 +133,22 @@ export const Not_Primary_Button = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+`;
+
+export const Box = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #d3ae36;
+  background: #fffdfa;
+  border-radius: 10px;
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  margin-bottom: 40px;
+
+  &:hover {
+    background: #faf6f0;
   }
 `;

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, H5, H2 } from "../../global_styles/theme";
+import { Container_Color, H5, H2 } from "../../global_styles/theme";
 import {
   About_Container,
   Image_Container,
@@ -15,8 +15,8 @@ import Me from "../../assets/about_me.HEIC.jpg";
 
 export default function About() {
   return (
-    <Container id="about">
-      <H5 style={{ color: "rgb(255, 255, 255, 0.6" }}>Get To Know</H5>
+    <Container_Color id="about">
+      <H5 style={{ color: "#c1c1c1" }}>Get To Know</H5>
       <H2>About Me</H2>
       <About_Content_Container>
         <Image_Container>
@@ -51,6 +51,6 @@ export default function About() {
           <Button primary title={`Let's Talk`} />
         </About_Container>
       </About_Content_Container>
-    </Container>
+    </Container_Color>
   );
 }

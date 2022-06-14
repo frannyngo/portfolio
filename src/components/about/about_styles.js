@@ -47,7 +47,7 @@ export const Image_Container = styled.div`
   }
 
   @media (max-width: 600px) {
-    width: 90%;
+    width: 100%;
   }
 `;
 
@@ -72,19 +72,18 @@ export const About_Cube = styled.div`
   align-items: center;
   flex-direction: column;
   padding: 20px;
-  border: 2px solid #3e3c96;
-  background: #4645ab;
+  border: 2px solid #d3ae36;
+  background: #fffdfa;
   border-radius: 10px;
   margin-right: 15px;
   height: 150px;
   width: 30%;
 
   &:hover {
-    background: transparent;
+    background: #faf6f0;
   }
 
   @media (max-width: 1350px) {
-    border: 2px solid #3e3c96;
     height: 100px;
   }
 
@@ -97,7 +96,7 @@ export const About_Cube = styled.div`
 `;
 
 export const Header = styled.h2`
-  color: white;
+  color: #d3ae36;
   font-size: 20px;
   margin-top: 15px;
   padding: 0px;
@@ -108,8 +107,8 @@ export const Header = styled.h2`
 `;
 
 export const Sub_Header = styled.p`
-  color: rgb(255, 255, 255, 0.6);
-  font-size: 15px;
+  color: #c1c1c1;
+  font-size: 17px;
   margin: 0px;
   padding: 0px;
   margin-top: -10px;
@@ -120,7 +119,7 @@ export const Sub_Header = styled.p`
 `;
 
 export const Description = styled.p`
-  color: rgb(255, 255, 255, 0.6);
+  color: #a6a6a6;
   font-size: 20px;
   margin-top: 20px;
 
@@ -135,14 +134,15 @@ export const Description = styled.p`
 `;
 
 export const Image_Background = styled.div`
-  background: #4db5ff;
+  background: #fffdfa;
   width: 450px;
-  height: 430px;
+  height: 440px;
   border-radius: 25px;
   z-index: 0;
+  border: 3px solid #d3ae36;
 
   @media (max-width: 1070px) {
-    width: 320px;
+    width: 310px;
     height: 300px;
   }
 
@@ -191,13 +191,13 @@ export const Image = styled.img`
   }
 
   @media (max-width: 1070px) {
-    width: 330px;
-    height: 310px;
+    width: 310px;
+    height: 300px;
   }
 
   @media (max-width: 868px) {
     width: 390px;
-    height: 390px;
+    height: 380px;
   }
 
   @media (max-width: 600px) {

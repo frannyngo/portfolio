@@ -18,7 +18,7 @@ export default function Card(data) {
             return (
               <Skill key={index}>
                 <BsPatchCheckFill
-                  style={{ width: 15, height: 15, color: "#4db5ff" }}
+                  style={{ width: 15, height: 15, color: "#d3ae36" }}
                 />
                 <Skill_Title>{element}</Skill_Title>
               </Skill>
