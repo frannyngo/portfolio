@@ -49,9 +49,6 @@ export const Card_Shell = styled.div`
   @media (max-width: 400px) {
     height: 400px;
   }
-  &:hover {
-    background: #faf6f0;
-  }
 `;
 
 export const Header = styled.h4`

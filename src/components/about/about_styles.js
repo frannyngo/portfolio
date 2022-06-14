@@ -79,10 +79,6 @@ export const About_Cube = styled.div`
   height: 150px;
   width: 30%;
 
-  &:hover {
-    background: #faf6f0;
-  }
-
   @media (max-width: 1350px) {
     height: 100px;
   }
