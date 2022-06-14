@@ -1,5 +1,27 @@
 import styled, { keyframes } from "styled-components";
 
+const fade_in_slide = keyframes`
+  from {
+    opacity: 0;
+    transform: translate3d(-100px, 0px, 0);
+  }
+  to {
+    opacity: 1;
+        transform: translate3d(0, 0, 0);
+  }
+`;
+
+const fade_in_slide_left = keyframes`
+  from {
+    opacity: 0;
+    transform: translate3d(100px, 0px, 0);
+  }
+  to {
+    opacity: 1;
+        transform: translate3d(0, 0, 0);
+  }
+`;
+
 export const About_Content_Container = styled.div`
   display: flex;
   align-items: center;
@@ -19,6 +41,7 @@ export const About_Container = styled.div`
   width: 50%;
   flex-direction: column;
   padding-right: 100px;
+  animation: ${fade_in_slide_left} 1s ease-in;
 
   @media (max-width: 1258px) {
     padding-right: 20px;
@@ -41,6 +64,7 @@ export const Image_Container = styled.div`
   justify-content: center;
   width: 50%;
   position: relative;
+  animation: ${fade_in_slide} 1s ease-in;
 
   @media (max-width: 868px) {
     width: 70%;

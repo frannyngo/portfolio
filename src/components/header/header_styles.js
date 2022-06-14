@@ -1,4 +1,26 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const fade_in_slide = keyframes`
+  from {
+    opacity: 0;
+    transform: translate3d(-100px, 0px, 0);
+  }
+  to {
+    opacity: 1;
+        transform: translate3d(0, 0, 0);
+  }
+`;
+
+const fade_in_slide_left = keyframes`
+  from {
+    opacity: 0;
+    transform: translate3d(100px, 0px, 0);
+  }
+  to {
+    opacity: 1;
+        transform: translate3d(0, 0, 0);
+  }
+`;
 
 export const Header_Container = styled.section`
   display: flex;
@@ -24,6 +46,7 @@ export const Header_CTA = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 90%;
+  animation: ${fade_in_slide} 1s ease-in;
 
   @media (min-width: 1024px) {
     flex-direction: column;
@@ -38,6 +61,7 @@ export const Image_Container = styled.div`
   margin-top: 50px;
   overflow: hidden;
   margin-top: 80px;
+  animation: ${fade_in_slide_left} 1s ease-in;
 
   @media (max-width: 550px) {
     width: 350px;
@@ -91,6 +115,7 @@ export const Social_Media_Box_Mobile = styled.a`
 
 export const Social_Media_Box = styled.a`
   display: none;
+  // box-shadow: 0px 10px 15px rgb(0, 0, 0, 0.14);
 
   @media (min-width: 1025px) {
   display: flex;
@@ -111,6 +136,8 @@ export const Social_Media_Box = styled.a`
 
   @media (max-width: 1350px) {
     height: 100px;
+      animation: ${fade_in_slide} 1s ease-in;
+
   }
 
   @media (max-width: 868px) {

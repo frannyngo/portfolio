@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, H5, P, H1 } from "../../global_styles/theme";
+import { Container, H5, H1 } from "../../global_styles/theme";
 import CTA from "../cta/cta";
 import ME from "../../assets/me.HEIC.jpg";
 import {
@@ -30,10 +30,6 @@ const styles = {
 };
 
 export default function Header() {
-  const mediaMatch = window.matchMedia("(min-width: 1024)");
-
-  console.log(mediaMatch);
-
   return (
     <Container id="#">
       <H5>Hello,&ensp;I'm</H5>

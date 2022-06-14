@@ -26,6 +26,7 @@ export const Card_Shell = styled.div`
   margin: 20px;
   border: 2px solid #d3ae36;
   border-radius: 10px;
+  box-shadow: 0px 10px 15px rgb(0, 0, 0, 0.14);
 
   @media (max-width: 1400px) {
     font-size: 17px;

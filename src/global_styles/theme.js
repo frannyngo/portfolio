@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const Background = styled.div`
   display: flex;
@@ -11,6 +11,15 @@ export const Background = styled.div`
   width: 100vw;
 `;
 
+const fade_in = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
+
 export const Container = styled.section`
   display: flex;
   align-items: center;
@@ -20,6 +29,8 @@ export const Container = styled.section`
   padding-top: 100px;
   padding-bottom: 100px;
   max-width: 2000px;
+  animation: ${fade_in} 1s ease-in;
+
   @media (max-width: 768px) {
     padding: 0px;
     padding-top: 100px;
@@ -37,6 +48,8 @@ export const Container_Color = styled.section`
   padding-bottom: 100px;
   max-width: 2000px;
   background: #faf6f0;
+  animation: ${fade_in} 1s ease-in;
+
   @media (max-width: 768px) {
     padding: 0px;
     padding-top: 100px;
