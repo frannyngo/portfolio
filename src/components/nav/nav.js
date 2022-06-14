@@ -13,8 +13,17 @@ const styles = {
     cursor: "pointer",
 
     "&:hover": {
-      color: "#4db5ff",
+      color: "",
     },
+  },
+  logo: {
+    width: 20,
+    height: 20,
+    marginRight: 40,
+  },
+  logo_no_margin: {
+    width: 20,
+    height: 20,
   },
 };
 
@@ -26,7 +35,7 @@ export default function Nav() {
       <nav>
         {active === "#" ? (
           <Active_A>
-            <AiOutlineHome style={{ width: 20, height: 20, marginRight: 40 }} />
+            <AiOutlineHome style={styles.logo} />
           </Active_A>
         ) : (
           <Link
@@ -35,12 +44,12 @@ export default function Nav() {
             onClick={() => set_active("#")}
             style={styles.link}
           >
-            <AiOutlineHome style={{ width: 20, height: 20, marginRight: 40 }} />
+            <AiOutlineHome style={styles.logo} />
           </Link>
         )}
         {active === "#about" ? (
           <Active_A>
-            <AiOutlineUser style={{ width: 20, height: 20, marginRight: 40 }} />
+            <AiOutlineUser style={styles.logo} />
           </Active_A>
         ) : (
           <Link
@@ -49,12 +58,12 @@ export default function Nav() {
             onClick={() => set_active("#about")}
             style={styles.link}
           >
-            <AiOutlineUser style={{ width: 20, height: 20, marginRight: 40 }} />
+            <AiOutlineUser style={styles.logo} />
           </Link>
         )}
         {active === "#experience" ? (
           <Active_A>
-            <BiBook style={{ width: 20, height: 20, marginRight: 40 }} />
+            <BiBook style={styles.logo} />
           </Active_A>
         ) : (
           <Link
@@ -63,12 +72,12 @@ export default function Nav() {
             onClick={() => set_active("#experience")}
             style={styles.link}
           >
-            <BiBook style={{ width: 20, height: 20, marginRight: 40 }} />
+            <BiBook style={styles.logo} />
           </Link>
         )}
         {active === "#portfolio" ? (
           <Active_A>
-            <MdOutlineWorkOutline style={{ width: 20, height: 20 }} />
+            <MdOutlineWorkOutline style={styles.logo_no_margin} />
           </Active_A>
         ) : (
           <Link
@@ -77,7 +86,7 @@ export default function Nav() {
             onClick={() => set_active("#portfolio")}
             style={styles.link}
           >
-            <MdOutlineWorkOutline style={{ width: 20, height: 20 }} />
+            <MdOutlineWorkOutline style={styles.logo_no_margin} />
           </Link>
         )}
       </nav>

@@ -4,7 +4,7 @@ export const Nav_Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.6);
   padding: 25px;
   z-index: 2;
   position: fixed;
@@ -15,5 +15,5 @@ export const Nav_Container = styled.div`
 `;
 
 export const Active_A = styled.a`
-  color: #4db5ff;
+  color: #d3ae36;
 `;
