@@ -64,14 +64,18 @@ export const Info = styled.div`
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  width: 425px;
+  width: 440px;
+
+  @media (max-width: 1600px) {
+    width: 380px;
+  }
 
   @media (max-width: 1500px) {
     width: 350px;
   }
 
   @media (max-width: 1400px) {
-    width: 325px;
+    width: 300px;
   }
 
   @media (max-width: 1200px) {
