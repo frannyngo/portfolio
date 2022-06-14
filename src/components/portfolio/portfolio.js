@@ -21,7 +21,7 @@ export default function Portfolio() {
         <Project title="imme" link="https://imme.io/" image={Imme} alt="imme" />
         <Project
           title="imme Mobile IOS"
-          link="https://imme.io/"
+          link="https://imme.io/about"
           image={Imme_App}
           alt="imme_app"
         />
