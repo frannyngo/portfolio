@@ -4,7 +4,7 @@ import { Container_Color, H5, H2 } from "../../global_styles/theme";
 import Project from "./project";
 import CycurID from "../../assets/cycurID.png";
 import Imme from "../../assets/imme.png";
-import Imme_App from "../../assets/mobile_app.jpg";
+import Imme_App from "../../assets/mobile_app.png";
 
 export default function Portfolio() {
   return (

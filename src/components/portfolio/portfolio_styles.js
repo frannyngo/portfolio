@@ -65,6 +65,8 @@ export const Info = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 440px;
+  margin-top: 25px;
+  align-items: center;
 
   @media (max-width: 1600px) {
     width: 380px;
@@ -93,7 +95,6 @@ export const Info = styled.div`
   @media (max-width: 768px) {
     width: 400px;
     margin-bottom: 40px;
-    align-items: center;
   }
 
   @media (max-width: 600px) {

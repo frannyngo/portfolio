@@ -13,7 +13,7 @@ export default function Project(data) {
     <Project_Container>
       <Image src={data.image} alt={data.alt} />
       <Info>
-        <Header>{data.title}</Header>
+        {/* <Header>{data.title}</Header> */}
         <Project_Button
           href={data.link}
           target="_blank"
