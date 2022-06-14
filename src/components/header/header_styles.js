@@ -54,7 +54,38 @@ export const Header_CTA = styled.div`
   }
 `;
 
+export const Header_CTA_Invisible = styled.div`
+  display: flex;
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  animation: ${fade_in_slide} 1s ease-in;
+
+  @media (min-width: 1024px) {
+    flex-direction: column;
+    width: 40%;
+  }
+`;
+
 export const Image_Container = styled.div`
+  width: 450px;
+  height: 550px;
+  z-index: 0;
+  margin-top: 50px;
+  overflow: hidden;
+  margin-top: 80px;
+  animation: ${fade_in_slide_left} 1s ease-in;
+
+  @media (max-width: 550px) {
+    width: 350px;
+    height: 500px;
+  }
+`;
+
+export const Image_Container_invisible = styled.div`
+  opacity: 0;
   width: 450px;
   height: 550px;
   z-index: 0;

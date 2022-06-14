@@ -1,6 +1,31 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
+const fade = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
 export const Portfolio_Container = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  flex-wrap: wrap;
+  width: 100vw;
+  max-width: 2000px;
+  animation: ${fade} 1s ease-in;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+`;
+
+export const Portfolio_Container_Invisible = styled.div`
+  opacity: 0;
   display: flex;
   align-items: center;
   justify-content: center;
