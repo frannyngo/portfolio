@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <Background>
         <Header />
-        <Nav />
+        {/* <Nav /> */}
         <About />
         <Experience />
         <Portfolio />
