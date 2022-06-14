@@ -23,6 +23,7 @@ export const Container = styled.section`
   @media (max-width: 768px) {
     padding: 0px;
     padding-top: 100px;
+    padding-bottom: 100px;
   }
 `;
 
@@ -39,6 +40,7 @@ export const Container_Color = styled.section`
   @media (max-width: 768px) {
     padding: 0px;
     padding-top: 100px;
+    padding-bottom: 100px;
   }
 `;
 
