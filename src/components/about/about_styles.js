@@ -181,7 +181,7 @@ export const Image = styled.img`
   height: 440px;
   z-index: 1;
   position: absolute;
-  border-radius: 25px;
+  border-radius: 22px;
   animation: ${rotate_restart} 0.2s linear;
   animation-fill-mode: forwards;
 
