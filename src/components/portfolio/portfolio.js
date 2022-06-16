@@ -4,7 +4,7 @@ import {
   Portfolio_Container,
   Portfolio_Container_Invisible,
 } from "./portfolio_styles";
-import { Container_Color, H5, H2 } from "../../global_styles/theme";
+import { Container, H5, H2 } from "../../global_styles/theme";
 import Project from "./project";
 import CycurID from "../../assets/cycurID.png";
 import Imme from "../../assets/imme.png";
@@ -14,7 +14,7 @@ export default function Portfolio() {
   const { ref: ref, inView: is_visible } = useInView();
 
   return (
-    <Container_Color id="portfolio">
+    <Container id="portfolio" background={"#fffdfa"}>
       <H5 style={{ color: "#c1c1c1" }}>My Recent Work</H5>
       <H2>Portfolio</H2>
       {is_visible ? (
@@ -60,6 +60,6 @@ export default function Portfolio() {
           />
         </Portfolio_Container_Invisible>
       )}
-    </Container_Color>
+    </Container>
   );
 }

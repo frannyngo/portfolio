@@ -1,5 +1,5 @@
 import React from "react";
-import { Not_Primary_Button } from "./theme";
+import { Global_Button } from "./theme";
 
 export default function Button(title) {
   return (
@@ -12,7 +12,7 @@ export default function Button(title) {
       }}
     >
       {title.primary ? (
-        <Not_Primary_Button>
+        <Global_Button>
           {title.download ? (
             <a
               href={
@@ -37,9 +37,9 @@ export default function Button(title) {
               {title.title}
             </a>
           )}
-        </Not_Primary_Button>
+        </Global_Button>
       ) : (
-        <Not_Primary_Button>
+        <Global_Button>
           {title.download ? (
             <a
               href={
@@ -64,7 +64,7 @@ export default function Button(title) {
               {title.title}
             </a>
           )}{" "}
-        </Not_Primary_Button>
+        </Global_Button>
       )}
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import { Container_Color, H5, H2 } from "../../global_styles/theme";
+import { Container, H5, H2 } from "../../global_styles/theme";
 import {
   About_Container,
   Image_Container,
@@ -21,7 +21,7 @@ export default function About() {
   const { ref: ref_info, inView: is_visible_info } = useInView();
 
   return (
-    <Container_Color id="about">
+    <Container id="about" background={"#fffdfa"}>
       <H5 style={{ color: "#c1c1c1" }}>Get To Know</H5>
       <H2>About Me</H2>
       <About_Content_Container>
@@ -96,6 +96,6 @@ export default function About() {
           </About_Container_Invisible>
         )}
       </About_Content_Container>
-    </Container_Color>
+    </Container>
   );
 }
