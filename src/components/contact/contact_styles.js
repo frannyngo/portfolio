@@ -7,7 +7,6 @@ export const Contact_Container = styled.div`
   width: 100vw;
   padding-top: 40px;
   padding-bottom: 40px;
-  background: pink;
   max-width: 2000px;
 
   @media (max-width: 868px) {
