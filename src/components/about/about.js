@@ -63,7 +63,7 @@ export default function About() {
               Crypto-related projects while taking a Machine Learning course
               from MITx!
             </Description>
-            <Button primary title={`Let's Talk`} />
+            <Button title={`Let's Talk`} />
           </About_Container>
         ) : (
           <About_Container_Invisible ref={ref_info}>
@@ -92,7 +92,7 @@ export default function About() {
               Crypto-related projects while taking a Machine Learning course
               from MITx!
             </Description>
-            <Button primary title={`Let's Talk`} />
+            <Button title={`Let's Talk`} />
           </About_Container_Invisible>
         )}
       </About_Content_Container>

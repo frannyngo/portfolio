@@ -7,7 +7,7 @@ export default function CTA() {
   return (
     <CTA_Container>
       <Button title={`Download CV`} download={CV} />
-      <Button title={`Let's Talk`} primary />
+      <Button title={`Let's Talk`} />
     </CTA_Container>
   );
 }
