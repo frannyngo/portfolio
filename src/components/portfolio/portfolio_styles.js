@@ -15,8 +15,10 @@ export const Portfolio_Container = styled.div`
   width: 100vw;
   max-width: 2000px;
   animation: ${fade} 1s ease-in;
-  background: pink;
   overflow-x: scroll;
+
+  @media (max-width: 600px) {
+  }
 `;
 
 export const Portfolio_Container_Invisible = styled.div`
