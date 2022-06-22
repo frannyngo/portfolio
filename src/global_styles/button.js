@@ -22,9 +22,16 @@ export default function Button(title) {
             {title.title}
           </a>
         ) : (
-          <Link to={"contact"} smooth={true}>
+          <a
+            href={"mailto:frannytaan@gmail.com"}
+            style={{ textDecoration: "none", color: "#d3ae36" }}
+          >
             {title.title}
-          </Link>
+          </a>
+
+          // <Link to={"contact"} smooth={true}>
+          //   {title.title}
+          // </Link>
         )}
       </Global_Button>
     </div>
