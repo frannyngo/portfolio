@@ -45,7 +45,7 @@ export const Project_Container = styled.div`
   width: 30%;
   background: #fffdfa;
   border: 2px solid #d3ae36;
-  margin: 10px;
+  margin: 20px;
   border-radius: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -60,22 +60,18 @@ export const Project_Container = styled.div`
     width: 400px;
     padding-top: 30px;
     padding-bottom: 0px;
+    marign: 50px;
   }
 
   @media (max-width: 500px) {
     width: 375px;
     padding-top: 30px;
     padding-bottom: 0px;
+    marign: 50px;
   }
 
   @media (max-width: 400px) {
     width: 355px;
-    padding-top: 30px;
-    padding-bottom: 0px;
-  }
-
-  @media (max-width: 400px) {
-    width: 320px;
     padding-top: 30px;
     padding-bottom: 0px;
   }
@@ -170,14 +166,11 @@ export const Image = styled.img`
 
   @media (max-width: 768px) {
     height: 350px;
-    width: 380px;
+    width: 350px;
   }
 
   @media (max-width: 600px) {
-    width: 325px;
-  }
-  @media (max-width: 400px) {
-    width: 270px;
+    width: 280px;
   }
 `;
 
