@@ -1,77 +1,10 @@
-import styled, { keyframes } from "styled-components";
-
-const fade = keyframes`
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-`;
-const fade_in_slide = keyframes`
-  from {
-    opacity: 0;
-        transform: translate3d(-100px, 0px, 0);
-  }
-  to {
-    opacity: 1;
-            transform: translate3d(0, 0, 0);
-  }
-`;
-
-export const Contact_Content_Container = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 100vw;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  max-width: 2000px;
-
-  @media (max-width: 868px) {
-    flex-direction: column;
-  }
-`;
-
-export const Image_Container = styled.div`
-  animation: ${fade_in_slide} 1s ease-in;
-  @media (max-width: 1024px) {
-    display: none;
-  }
-`;
-
-export const Image_Container_Invisible = styled.div`
-  opacity: 0;
-  @media (max-width: 1024px) {
-    display: none;
-  }
-`;
+import styled from "styled-components";
 
 export const Contact_Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  max-width: 2000px;
-  animation: ${fade} 1s ease-in;
-
-  @media (max-width: 1024px) {
-    width: 100%;
-  }
-
-  @media (max-width: 868px) {
-    flex-direction: column;
-  }
-`;
-
-export const Contact_Container_Invisible = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100vw;
-  opacity: 0;
   padding-top: 40px;
   padding-bottom: 40px;
   max-width: 2000px;
@@ -147,7 +80,6 @@ export const Text_Input = styled.textarea`
   border: 2px solid #d3ae36;
   height: 100px;
   width: 90%;
-  resize: none;
 `;
 
 export const Input_Style = styled.input`
