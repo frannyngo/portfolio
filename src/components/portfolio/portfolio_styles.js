@@ -57,23 +57,10 @@ export const Project_Container = styled.div`
   }
 
   @media (max-width: 600px) {
-    width: 400px;
+    width: 430px;
     padding-top: 30px;
     padding-bottom: 0px;
     marign: 50px;
-  }
-
-  @media (max-width: 500px) {
-    width: 375px;
-    padding-top: 30px;
-    padding-bottom: 0px;
-    marign: 50px;
-  }
-
-  @media (max-width: 400px) {
-    width: 355px;
-    padding-top: 30px;
-    padding-bottom: 0px;
   }
 `;
 
@@ -170,7 +157,7 @@ export const Image = styled.img`
   }
 
   @media (max-width: 600px) {
-    width: 280px;
+    width: 80%;
   }
 `;
 
