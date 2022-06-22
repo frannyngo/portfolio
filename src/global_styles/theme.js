@@ -31,6 +31,7 @@ export const Container = styled.section`
   max-width: 2000px;
   animation: ${fade_in} 1s ease-in;
   background: ${(props) => props.background || "#faf6f0"};
+  overflow: hidden;
 
   @media (max-width: 768px) {
     padding: 0px;
