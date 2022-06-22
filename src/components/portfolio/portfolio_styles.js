@@ -10,18 +10,13 @@ const fade = keyframes`
 `;
 export const Portfolio_Container = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  flex-wrap: wrap;
   width: 100vw;
   max-width: 2000px;
   animation: ${fade} 1s ease-in;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-  }
+  background: pink;
+  overflow-x: scroll;
 `;
 
 export const Portfolio_Container_Invisible = styled.div`
